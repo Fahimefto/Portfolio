@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
 export default function Header() {
+  const color = "white";
   return (
     <header className="flex justify-between sticky top-0 max-w-7xl mx-auto z-20 xl:items-center p-5">
       <motion.div
@@ -23,17 +24,17 @@ export default function Header() {
       >
         <SocialIcon
           url="https://facebook.com/fahim.iftekhar.efto"
-          fgColor="gray"
+          fgColor={color}
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.linkedin.com/fahim.iftekhar.efto"
-          fgColor="gray"
+          fgColor={color}
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/Fahimefto"
-          fgColor="gray"
+          fgColor={color}
           bgColor="transparent"
         />
       </motion.div>
@@ -56,10 +57,10 @@ export default function Header() {
         <SocialIcon
           network="email"
           className="cursor-pointer"
-          fgColor="gray"
+          fgColor={color}
           bgColor="transparent"
         />
-        <p className="text-gray-400 uppercase hidden md:inline-flex text-sm">
+        <p className="text-gray-100 font-bold uppercase hidden md:inline-flex text-sm">
           Contact with me
         </p>
       </motion.div>
