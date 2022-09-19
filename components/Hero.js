@@ -20,13 +20,21 @@ export default function Hero() {
         alt="Fahim Iftekhar Efto"
         className="relative rounded-fill mx-auto h-40 w-40"
       />
-      <h2 className="uppercase pb-2 tracking-[15px] font-bold text-center text-lg">
-        Fahim Iftekhar Efto
-      </h2>
-      <h1 className="text-4xl lg:text-6xl text-center">
-        <span>{text}</span>
-        <Cursor cursorColor="red"></Cursor>
-      </h1>
+      <div className="z-20">
+        <h2 className="uppercase pb-2 tracking-[15px] font-bold text-center text-lg">
+          Fahim Iftekhar Efto
+        </h2>
+        <h1 className="text-4xl lg:text-6xl text-center">
+          <span>{text}</span>
+          <Cursor cursorColor="red"></Cursor>
+        </h1>
+        <div className="pt-5">
+          <button className="herobtn">About</button>
+          <button className="herobtn">Experience</button>
+          <button className="herobtn">Skills</button>
+          <button className="herobtn">Project</button>
+        </div>
+      </div>
     </div>
   );
 }

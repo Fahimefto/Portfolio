@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-slate-900 to-stone-900 h-screen text-white snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-gradient-to-b from-slate-900 to-stone-900  h-screen text-white snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>Fahim Iftekhar Efto | Portfolio</title>
       </Head>
