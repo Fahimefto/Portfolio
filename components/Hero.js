@@ -16,9 +16,9 @@ export default function Hero() {
     <div className="h-screen flex flex-col items-center justify-center overflow-hidden space-y-8">
       <BackRoundCircles />
       <img
-        src="https://avatars.githubusercontent.com/u/68494604?v=4"
+        src="./assest/efto.png"
         alt="Fahim Iftekhar Efto"
-        className="relative rounded-fill mx-auto h-40 w-40"
+        className="relative rounded-full mx-auto h-28 w-28 object-cover object-top"
       />
 
       <h2 className="uppercase pb-2 tracking-[15px] font-bold text-center text-lg">
@@ -30,9 +30,7 @@ export default function Hero() {
       </h1>
       <div className="z-20 p-5">
         <div className="p-3 ">
-          <button className="herobtn" id="#about">
-            About
-          </button>
+          <button className="herobtn">About</button>
           <button className="herobtn" id="#experience">
             Experience
           </button>

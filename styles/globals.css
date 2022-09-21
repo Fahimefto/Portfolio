@@ -1,4 +1,8 @@
 @tailwind base;
+@layer base {
+  html {
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
