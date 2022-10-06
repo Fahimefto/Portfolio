@@ -10,7 +10,7 @@ export default function About() {
       viewport={{ once: true }}
       className="flex flex-col relative h-screen text-center md:flex-row md:text-left max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute py-10 -m-10 top-24  uppercase tracking-[10px] text-2xl font-bold ">
+      <h3 className="absolute py-10 -m-10 top-24  uppercase tracking-[10px] text-2xl font-bold snap-center">
         About
       </h3>
       <motion.img
