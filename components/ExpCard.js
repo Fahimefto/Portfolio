@@ -15,8 +15,9 @@ export default function ExpCard() {
       <div className="p-0 md:px-10">
         <h4 className="text-3xl">Tittle at Company</h4>
         <p className="font-bold text-2xl mt-1">CEO</p>
-        <div className="flex space-x-2 my-2">
+        <picture className="flex space-x-2 my-2">
           {/** tech used */}
+
           <img
             className="w-10 h-10 rounded-full items-center"
             src="https://upload.wikimedia.org/wikipedia/commons/7/7e/500_Startups_-_logo.png"
@@ -37,7 +38,7 @@ export default function ExpCard() {
             className="w-10 h-10 rounded-full"
             src="https://upload.wikimedia.org/wikipedia/commons/7/7e/500_Startups_-_logo.png"
           />
-        </div>
+        </picture>
         <p className="uppercase py-5 text-lg">Started 12jan- 12jan 2022</p>
         <ul className="list-disc space-y-5 text-lg ml-5">
           <li>lorem ipsum</li>

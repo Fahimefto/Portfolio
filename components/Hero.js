@@ -15,11 +15,13 @@ export default function Hero() {
   return (
     <div className="h-screen flex flex-col items-center justify-center overflow-hidden space-y-8">
       <BackRoundCircles />
-      <img
-        src="./assest/efto.png"
-        alt="Fahim Iftekhar Efto"
-        className="relative rounded-full mx-auto h-28 w-28 object-cover object-top"
-      />
+      <picture>
+        <img
+          src="./assest/efto.png"
+          alt="Fahim Iftekhar Efto"
+          className="relative rounded-full mx-auto h-28 w-28 object-cover object-top"
+        />
+      </picture>
 
       <h2 className="uppercase pb-2 tracking-[15px] font-bold text-center text-lg">
         Fahim Iftekhar Efto
